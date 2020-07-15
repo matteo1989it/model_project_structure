@@ -1,7 +1,7 @@
 # model_project_structure
 
-<a href="foo">
-*bar*
+<a href="https://martinfowler.com/articles/cd4ml/ml-pipeline-1.png">
+ML pipeline by Martin Fawler
 </a>
 
 
@@ -10,8 +10,8 @@ Example of basic ML pipeline structure, derived from [this](https://towardsdatas
 ## Hierarchy
 
 - **artifacts**
-  **train** : Logfiles, trained models
-  **test**  : Logfiles
+  - **train** : Logfiles, trained models
+  - **test**  : Logfiles
 - **datasets** : Data loading scripts
 - **experiments** : Configuration files
 - **models** : Scripts defining how the model looks like
