@@ -9,14 +9,11 @@ Example of basic ML pipeline structure, derived from [this](https://towardsdatas
 
 ## Hierarchy
 
-**├── artifacts**
-
-**│   ├── train** : Logfiles, trained models
-
-**│   └── test**  : Logfiles
-
-**├── datasets** : Data loading scripts
-**├── experiments** : Configuration files
-**├── models** : Scripts defining how the model looks like
-**├── optimizers** : Scripts defining the optimizeres
-**└── train** : Script to run the training
+- **artifacts**
+  **train** : Logfiles, trained models
+  **test**  : Logfiles
+- **datasets** : Data loading scripts
+- **experiments** : Configuration files
+- **models** : Scripts defining how the model looks like
+- **optimizers** : Scripts defining the optimizeres
+- **train** : Script to run the training
